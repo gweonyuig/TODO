@@ -17,3 +17,9 @@
   - Authentication 사용자 인증 및 관리 사용
   * 로그인 및 회원가입 기능 구현
 - backgroundImage
+
+### 개발 환경
+
+- **IDE** : vscode
+- `firebase`
+- `react-native cli`
