@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {Component, useState} from 'react';
 import {
   View,
   TextInput,
@@ -6,14 +6,15 @@ import {
   Text,
   StatusBar,
   TouchableOpacity,
+  ImageBackground,
 } from 'react-native';
-import {styles} from '../components/styles';
+import {styles} from './components/styles';
 import {
   handleAddItem,
   handleDeleteItem,
   handleResetList,
   handleCheckItem,
-} from '../components/functions';
+} from './components/functions';
 
 const Todolist = () => {
   const [inputText, setInputText] = useState('');
@@ -36,12 +37,20 @@ const Todolist = () => {
   };
 
   return (
+    // <ImageBackground
+    //   style={{ ...styles.container, backgroundColor: "rgba(0, 0, 0, 0.9)" }}
+    //   source={require("./img/FiGPiN_360HelloKittySANRIOPIN.png")}
+    //   resizeMode="cover"
+    // >
     <View style={styles.container}>
+      <StatusBar auto />
+
       <Text style={styles.mainTitle}>TO DO LIST</Text>
 
       <TextInput
         style={styles.input}
         placeholder="Enter text here"
+        placeholderTextColor="#000"
         value={inputText}
         onChangeText={setInputText}
         onSubmitEditing={addItem}
@@ -71,6 +80,7 @@ const Todolist = () => {
         <Text style={styles.resetButton}>Reset List</Text>
       </TouchableOpacity>
     </View>
+    //</ImageBackground>
   );
 };
 

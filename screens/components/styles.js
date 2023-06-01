@@ -10,14 +10,18 @@ export const styles = StyleSheet.create({
     fontSize: 32,
     fontWeight: 'bold',
     marginBottom: 20,
+    marginTop: 5,
+    color: '#000',
   },
   input: {
-    height: 40,
+    height: 50,
     borderWidth: 1,
-    borderColor: '#ddd',
+    borderColor: '#000',
     borderRadius: 4,
     paddingHorizontal: 10,
     marginBottom: 10,
+    fontSize: 18,
+    color: '#000',
   },
   itemContainer: {
     flexDirection: 'row',
@@ -27,11 +31,14 @@ export const styles = StyleSheet.create({
   item: {
     fontSize: 18,
     flex: 1,
-    color: 'black',
+    color: '#000',
+    fontWeight: 'bold',
+    marginBottom: 3,
   },
   deleteButton: {
     color: 'red',
     marginLeft: 10,
+    fontSize: 18,
   },
   resetButton: {
     color: 'blue',
