@@ -7,6 +7,6 @@
   - splashScreen
     - 앱 실행시 로딩화면
   - tabNavigation
-
+    ㅁㄴㅇㄹ
   - firebase
   - backgroundImage
