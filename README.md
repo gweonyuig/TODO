@@ -7,6 +7,9 @@
   - splashScreen
     - 앱 실행시 로딩화면
   - tabNavigation
-    ㅁㄴㅇㄹ
+    - 하단 tabNavigation 추가
+    - 아이콘 삽입
   - firebase
+    - Authentication 사용자 인증 및 관리 사용
+    * 로그인 및 회원가입 기능 구현
   - backgroundImage
